@@ -58,7 +58,8 @@ Make sure the selected `AKAMAI_EDGEGRID_SECTION` has the READ/WRITE permissions 
 Example:
 
 ```bash
-export AKAMAI_EDGEGRID_SECTION=default
+export AKAMAI_EDGEGRID_SECTION=my-edgegrc-section
+
 # Optional: only needed when switching account
 export AKAMAI_ACCOUNT_SWITCH_KEY=F-AC-1234567:1-ABCD
 uv run jupyter notebook
