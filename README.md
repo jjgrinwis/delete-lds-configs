@@ -36,15 +36,17 @@ brew install uv
    cd delete-lds-configs
    ```
 
-2. Install dependencies and launch Jupyter:
+2. Install dependencies and launch Jupyter if using default EdgeGrid credentials:
 
    ```bash
-   uv run jupyter notebook
+   uv run jupyter lab
    ```
 
 3. Open `edgegrid_notebook.ipynb` in the browser.
 
 ## Configuration
+
+If you need to use a specific `~/.edgerc` section or use a switchkey, define it via ENV var.
 
 | Environment variable        | Description                                       | Default  |
 | --------------------------- | ------------------------------------------------- | -------- |
