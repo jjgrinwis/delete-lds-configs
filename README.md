@@ -51,6 +51,8 @@ brew install uv
 | `AKAMAI_EDGEGRID_SECTION`   | Section name in `~/.edgerc`                       | `gss`    |
 | `AKAMAI_ACCOUNT_SWITCH_KEY` | Account switch key for managing multiple accounts | _(none)_ |
 
+Make sure the selected `AKAMAI_EDGEGRID_SECTION` has the READ/WRITE permissions for the [LDS API endpoint](https://techdocs.akamai.com/log-delivery/reference/get-started).
+
 `AKAMAI_ACCOUNT_SWITCH_KEY` is optional. Only set it if you need to manage configurations under a different account than the one in your `~/.edgerc` file if you have the permissions.
 
 Example:
